@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 221, 186);
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: rgb(202, 250, 234);
+    margin: 0 auto;
+}
+.profile-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3
+{
+    color: rgb(126, 146, 84);
+    opacity: 1;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: rgb(126, 146, 84);
+    opacity: 1;
+    font-size: 20px;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: red;  
+}
+
+/* horizendal section  */
+hr{
+    border: 2px solid black;
+    border-bottom: none;
+    max-width: 100%;
+    margin: 5px auto;
+
+}
+.again-hr{
+    border: 0.5px solid orange;
+}
+
+.again2-hr{
+    border: 1px solid red;
+}
+
+
+.clear{
+    clear: both;
+}
+/* personal section  */
+.personal-section{
+    padding: 20px;
+}
+.div-left{
+    float: left;
+    width: 30%;
+}
+.div-right{
+    float: right;
+    width: 70%;
+}
+.div-right p{
+    text-align: justify;
+    color: rgb(34, 83, 67);
+}
+/* workexperience section  */
+.workexperience-section{
+    padding: 20px;
+}
+
+/* footer section  */
+
+.footer-section{
+    background-color:black;
+    padding: 20px;
+    margin: 0 auto;
+}
+.footer-section p{
+text-align: center;
+color: white;
+padding: 2px;
+}
+.footer-section a{
+    color: white;
+    text-decoration: none;
+}
+.footer-section a:hover{
+    color: orange;
+}
